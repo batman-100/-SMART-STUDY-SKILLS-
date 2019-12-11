@@ -1,0 +1,52 @@
+/*Base CSS that applies to all screen sizes*/
+/*base layout*/
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+
+@media (min-width: 600px){
+
+
+
+  }
+/*end 600p*/
+/*=========================================================================*/
+
+@media (min-width: 900px){
+
+      .boxes{
+        grid-template-columns: 1fr  1fr;
+      }
+      .one{
+        grid-column:1/4;
+
+      }
+}
+/*end 900px*/
+/*=========================================================================*/
+
+@media (min-width: 1200px){
+       /* laptop */
+      .boxes{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .one{
+        grid-column:1/5;
+      }
+}
+/*end 1200px */
+/*=========================================================================*/
+
+
+@media (min-width: 1800px){
+
+
+}
+/*end 1800px*/
+/*=========================================================================*/
+
+
