@@ -294,6 +294,9 @@ background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 margin-bottom: 0;
     text-align: center;
     grid-column: 1/3;
+   display: block;
+    margin-left: auto;
+    margin-right: auto }
 }
 
 
@@ -367,6 +370,10 @@ margin-bottom: 0;
  margin:2%;
    padding: 2%;
 background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border-left: 100px;
+    border-right-width: 10px;
+        margin-left: auto;
+    margin-right: auto;
  }
 
 
@@ -386,12 +393,13 @@ background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 
  .retrievalskillboxrescurceLINK{
      font-family:'Lato', sans-serif,georgia; ;
- line-height: 1;
+width: 20m;
      font-family: 'Abhaya Libre';
     font-size: 24px;
- margin:2%;
-   padding: 2%;
-  grid-template-columns: 1fr 1fr 1fr  ;
+
+   padding: 1%;
+
+
      background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
       text-align: center;
        font-size: 1.2em;
@@ -575,7 +583,7 @@ theVideo iframe {
  mainabout{
 
       display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-gap: 10px;
  }
 
