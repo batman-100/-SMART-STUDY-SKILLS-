@@ -602,58 +602,18 @@ color:#39CEFA ;
 
 }
 
+
+.images {
+  width: 100%;
+  height: auto;
+    align-items: center;
+}
+
+
+.brain{
+    border-bottom: 300em;
+    align-items: center;
+}
 /*....................................................................*/
 
 
-/* CSS here for every devices (import fonts, set base typography, base responsive styles, colors etc). */
-
-@supports (grid-area: auto) {
-
-    /* Css here for your base grid that applies to mobile devices */
-  .skills{
-
-      display: grid;
-    grid-template-columns: 1fr 1fr ;
-     grid-column:1/4;
-      }
-
-    }
-
-   @media (min-width: 600px){
-
-         /* this applies to mobile in landscape and some tablets in portrait */
-
-
-
-
-
-
-    }/*   end min-width 600 */
-
-
-
-    @media (min-width: 900px){
-
-          /* this applies to tablets */
-
-    }/*   end min-width 900 */
-
-
-
-    @media (min-width: 1200px){
-
-          /* this applies average laptops */
-
-    }/*   end min-width 1200 */
-
-
-
-    @media (min-width: 1800px){
-
-          /* this applies to large laptops and desktops */
-
-    }/*   end min-width 1800 */
-
-
-}
-/* end @supports */
