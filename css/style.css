@@ -294,9 +294,6 @@ background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 margin-bottom: 0;
     text-align: center;
     grid-column: 1/3;
-   display: block;
-    margin-left: auto;
-    margin-right: auto }
 }
 
 
@@ -370,10 +367,6 @@ margin-bottom: 0;
  margin:2%;
    padding: 2%;
 background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-    border-left: 100px;
-    border-right-width: 10px;
-        margin-left: auto;
-    margin-right: auto;
  }
 
 
@@ -393,13 +386,12 @@ background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 
  .retrievalskillboxrescurceLINK{
      font-family:'Lato', sans-serif,georgia; ;
-width: 20m;
+ line-height: 1;
      font-family: 'Abhaya Libre';
     font-size: 24px;
-
-   padding: 1%;
-
-
+ margin:2%;
+   padding: 2%;
+  grid-template-columns: 1fr 1fr 1fr  ;
      background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
       text-align: center;
        font-size: 1.2em;
@@ -462,8 +454,8 @@ color:#87CEFA ;
 
 
 .video{
-    overflow: hidden;
-    font-family: 'Abhaya Libre';
+
+    f
     font-size: 1.2em;
  margin: 2%;
   padding: 2%;
@@ -471,8 +463,7 @@ color:#87CEFA ;
      text-align: center;
 grid-column: 1/3;
 
-     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-    border-color: rgba(50, 115, 220, 0.3);
+
  }
 iframe{
     width: 100%;
@@ -583,7 +574,7 @@ theVideo iframe {
  mainabout{
 
       display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 10px;
  }
 
@@ -610,3 +601,59 @@ color:#39CEFA ;
     float: left;
 
 }
+
+/*....................................................................*/
+
+
+/* CSS here for every devices (import fonts, set base typography, base responsive styles, colors etc). */
+
+@supports (grid-area: auto) {
+
+    /* Css here for your base grid that applies to mobile devices */
+  .skills{
+
+      display: grid;
+    grid-template-columns: 1fr 1fr ;
+     grid-column:1/4;
+      }
+
+    }
+
+   @media (min-width: 600px){
+
+         /* this applies to mobile in landscape and some tablets in portrait */
+
+
+
+
+
+
+    }/*   end min-width 600 */
+
+
+
+    @media (min-width: 900px){
+
+          /* this applies to tablets */
+
+    }/*   end min-width 900 */
+
+
+
+    @media (min-width: 1200px){
+
+          /* this applies average laptops */
+
+    }/*   end min-width 1200 */
+
+
+
+    @media (min-width: 1800px){
+
+          /* this applies to large laptops and desktops */
+
+    }/*   end min-width 1800 */
+
+
+}
+/* end @supports */
